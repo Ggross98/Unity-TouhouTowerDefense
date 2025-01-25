@@ -1,20 +1,42 @@
 fileFormatVersion: 2
 guid: 00cc5639e0388fc4dad18a0a805b38a9
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: 047-Flower01_0
-    21300002: 047-Flower01_1
-    21300004: 047-Flower01_2
-    21300006: 047-Flower01_3
-    21300008: 047-Flower01_4
-    21300010: 047-Flower01_5
-    21300012: 047-Flower01_6
-    21300014: 047-Flower01_7
-    21300016: 047-Flower01_8
-    21300018: 047-Flower01_9
-    21300020: 047-Flower01_10
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: 047-Flower01_0
+  - first:
+      213: 21300002
+    second: 047-Flower01_1
+  - first:
+      213: 21300004
+    second: 047-Flower01_2
+  - first:
+      213: 21300006
+    second: 047-Flower01_3
+  - first:
+      213: 21300008
+    second: 047-Flower01_4
+  - first:
+      213: 21300010
+    second: 047-Flower01_5
+  - first:
+      213: 21300012
+    second: 047-Flower01_6
+  - first:
+      213: 21300014
+    second: 047-Flower01_7
+  - first:
+      213: 21300016
+    second: 047-Flower01_8
+  - first:
+      213: 21300018
+    second: 047-Flower01_9
+  - first:
+      213: 21300020
+    second: 047-Flower01_10
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -31,9 +53,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -43,8 +68,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -65,11 +90,17 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -79,8 +110,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -90,7 +123,35 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -110,6 +171,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d340309980e28e54dadc5fd6a6a3565a
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -130,6 +192,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1634c76af9c00254bae50fc65acb45e9
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -150,6 +213,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2a9ca0ac4e2e92445b01b3b94f5336c5
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -170,6 +234,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2618768a8650aee4cb4a94af984ba0fc
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -190,6 +255,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: cefd9f2bb0d57104ba2bbe8e9f6725a5
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -210,6 +276,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0fd7d49a1aa44f049839d02015023a60
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -230,6 +297,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6ae37cd5a8168594c925f63bcfcbd8fd
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -250,6 +318,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9025e8f5f9ef44c4b895996bc1d9f7fb
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -270,6 +339,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8825d6ec15e695745a08ff79e1967ac7
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -290,6 +360,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 100f6644d5d96f44daef4354f45e7dba
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
@@ -310,6 +381,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 3a127ff4ab0bf3846a787ef2d8a99504
+      internalID: 21300020
       vertices: []
       indices: 
       edges: []
@@ -318,13 +390,26 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 3d26df280699ed149a6beb9fb830504a
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-  spritePackingTag: 
+    secondaryTextures: []
+    nameFileIdTable:
+      047-Flower01_0: 21300000
+      047-Flower01_1: 21300002
+      047-Flower01_10: 21300020
+      047-Flower01_2: 21300004
+      047-Flower01_3: 21300006
+      047-Flower01_4: 21300008
+      047-Flower01_5: 21300010
+      047-Flower01_6: 21300012
+      047-Flower01_7: 21300014
+      047-Flower01_8: 21300016
+      047-Flower01_9: 21300018
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
